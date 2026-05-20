@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empower Your Recovery Journey with Anchored by Grace</title>
+  <meta name="description" content="Discover virtual support services for addiction recovery. Access resources, an intuitive journal app, and 24/7 advocacy.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .hero {
+      min-height: 75vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      overflow: hidden;
+    }
+    .hero-content { padding: 80px 60px 80px 80px; }
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 3.8rem;
+      line-height: 1.2;
+      color: var(--teal-3);
+      margin-bottom: 24px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--grey-2);
+      max-width: 500px;
+      margin-bottom: 36px;
+    }
+    .hero-image { position: relative; height: 75vh; overflow: hidden; }
+    .hero-image::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, var(--off-white) 0%, transparent 25%);
+      z-index: 1;
+    }
+    .hero-image img { width: 100%; height: 100%; object-fit: cover; }
+    .about-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-text h2 { font-family: var(--font-heading); font-size: 2.6rem; color: var(--teal-3); margin-bottom: 20px; }
+    .about-text p { font-size: 1.05rem; line-height: 1.9; color: var(--grey-2); margin-bottom: 16px; }
+    .about-image { border-radius: 20px; overflow: hidden; }
+    .about-image img { width: 100%; height: 400px; object-fit: cover; display: block; }
+    .gracie-section { text-align: center; padding: 100px 80px; }
+    .gracie-section h2 { font-family: var(--font-heading); font-size: 3rem; margin-bottom: 20px; }
+    .gracie-section p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 40px; opacity: 0.85; line-height: 1.8; }
+    .info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .info-card { background: white; border-radius: 12px; padding: 32px; border-left: 4px solid var(--teal-2); transition: border-color 0.3s, transform 0.3s; }
+    .info-card:hover { border-color: var(--teal-3); transform: translateX(4px); }
+    .info-card h3 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--teal-3); margin-bottom: 10px; }
+    .info-card p { font-size: 0.95rem; line-height: 1.7; color: var(--grey-2); }
+    .home-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .home-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(45,153,166,0.08); transition: transform 0.3s, box-shadow 0.3s; }
+    .home-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(45,153,166,0.18); }
+    .home-card-icon { height: 160px; background: linear-gradient(135deg, var(--teal-1), var(--teal-3)); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+    .home-card-body { padding: 28px; }
+    .home-card-title { font-family: var(--font-heading); font-size: 1.4rem; color: var(--teal-3); margin-bottom: 10px; }
+    .home-card-text { font-size: 0.95rem; line-height: 1.7; color: var(--grey-2); margin-bottom: 16px; }
+    .home-card-link { font-family: var(--font-accent); font-size: 0.8rem; color: var(--teal-3); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase; }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-image { height: 300px; }
+      .hero-content { padding: 60px 24px; }
+      .hero h1 { font-size: 2.5rem; }
+      .home-cards { grid-template-columns: 1fr; }
+      .about-strip { grid-template-columns: 1fr; gap: 40px; }
+      .info-grid { grid-template-columns: 1fr; }
+      .gracie-section { padding: 60px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <script src="shared.js"></script>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Anchored By Grace.<br>Free From Addiction.</h1>
+      <p>Welcome to the virtual recovery hub. Designed to connect, encourage, empower and embrace all that you are, to achieve change that matters. The support you're looking for is found right here.</p>
+      <a href="about.html" class="btn btn-primary">Learn More</a>
+      &nbsp;&nbsp;
+      <a href="chat.html" class="btn btn-outline">Chat with Gracie</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://cdn.b12.io/client_media/ElvY59q8/5f80d554-52b1-11f0-90a5-0242ac110002-jpg-hero_image.jpeg" alt="Calm ocean — recovery journey">
+    </div>
+  </section>
+
+  <section class="section section-light">
+    <div class="section-header">
+      <span class="section-label">Recovery Tools</span>
+      <h2 class="section-title">What We Offer</h2>
+    </div>
+    <div class="home-cards">
+      <div class="home-card">
+        <div class="home-card-icon">🤝</div>
+        <div class="home-card-body">
+          <h3 class="home-card-title">Chat with Gracie</h3>
+          <p class="home-card-text">24/7 virtual support with Gracie, your personal recovery companion. Always here when you need someone to talk to.</p>
+          <a href="chat.html" class="home-card-link">Chat now →</a>
+        </div>
+      </div>
+      <div class="home-card">
+        <div class="home-card-icon">📚</div>
+        <div class="home-card-body">
+          <h3 class="home-card-title">Information Hub</h3>
+          <p class="home-card-text">Access a wealth of resources on addiction recovery, mental health, and wellness to support your journey.</p>
+          <a href="info-hub.html" class="home-card-link">Explore →</a>
+        </div>
+      </div>
+      <div class="home-card">
+        <div class="home-card-icon">🛠️</div>
+        <div class="home-card-body">
+          <h3 class="home-card-title">Tools & Worksheets</h3>
+          <p class="home-card-text">Self-help toolkits, worksheets, and guided activities to support your recovery every step of the way.</p>
+          <a href="tools.html" class="home-card-link">Get tools →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-copper">
+    <div class="about-strip">
+      <div class="about-text">
+        <h2>Your Recovery,<br>Your Journey</h2>
+        <p>Anchored by Grace provides addiction recovery support through 24/7 virtual therapy, intuitive journaling, and tools that empower healing, resilience, and long-term freedom.</p>
+        <p>We believe everyone deserves access to compassionate, professional support — wherever they are, whenever they need it.</p>
+        <a href="about.html" class="btn btn-primary" style="margin-top: 12px;">About Us</a>
+      </div>
+      <div class="about-image">
+        <img src="https://cdn.b12.io/client_media/ElvY59q8/5f80d554-52b1-11f0-90a5-0242ac110002-jpg-hero_image.jpeg" alt="Recovery journey">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-teal gracie-section">
+    <h2>Meet Gracie</h2>
+    <p>Your 24/7 virtual recovery companion. Gracie is always here to listen, support, and guide you through your recovery journey — any time of day or night.</p>
+    <a href="chat.html" class="btn btn-copper">Start with Gracie</a>
+  </section>
+
+  <section class="section section-light">
+    <div class="section-header">
+      <span class="section-label">Education & Support</span>
+      <h2 class="section-title">Information Hub</h2>
+      <p class="section-subtitle">Knowledge is power. Explore our library of resources to better understand addiction and recovery.</p>
+    </div>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Understanding Addiction</h3>
+        <p>Learn about the science of addiction, how it affects the brain and body, and what recovery really looks like.</p>
+      </div>
+      <div class="info-card">
+        <h3>Empower Your Recovery</h3>
+        <p>Practical strategies, mindset tools, and evidence-based approaches to support lasting change.</p>
+      </div>
+      <div class="info-card">
+        <h3>Self-Help Toolkits</h3>
+        <p>Downloadable worksheets, journals, and guided exercises designed specifically for recovery.</p>
+      </div>
+      <div class="info-card">
+        <h3>Resources & Support</h3>
+        <p>Curated links to professional services, crisis support, community groups, and further reading.</p>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 48px;">
+      <a href="info-hub.html" class="btn btn-outline">Explore the Hub</a>
+    </div>
+  </section>
+
+</body>
+</html>

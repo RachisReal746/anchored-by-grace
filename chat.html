@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with Gracie | Anchored by Grace</title>
+  <meta name="description" content="Chat with Gracie, your 24/7 virtual recovery companion from Anchored by Grace.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .gracie-hero {
+      background: linear-gradient(135deg, var(--teal-3) 0%, var(--teal-1) 100%);
+      color: white;
+      text-align: center;
+      padding: 100px 80px;
+    }
+    .gracie-hero h1 {
+      font-family: var(--font-heading);
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+    .gracie-hero p {
+      font-size: 1.15rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.8;
+    }
+    .gracie-icon {
+      width: 120px;
+      height: 120px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.5rem;
+      margin: 0 auto 32px;
+      border: 3px solid rgba(255,255,255,0.4);
+    }
+    .launch-badge {
+      display: inline-block;
+      background: var(--copper-1);
+      color: var(--grey-3);
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-family: var(--font-accent);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .features-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .feature-item {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      box-shadow: 0 4px 20px rgba(45,153,166,0.08);
+    }
+    .feature-icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+    }
+    .feature-item h3 {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      color: var(--teal-3);
+      margin-bottom: 6px;
+    }
+    .feature-item p {
+      font-size: 0.9rem;
+      color: var(--grey-2);
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .gracie-hero { padding: 60px 24px; }
+      .gracie-hero h1 { font-size: 2.5rem; }
+      .features-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <script src="shared.js"></script>
+
+  <section class="gracie-hero">
+    <div class="launch-badge">🚀 Launching Soon</div>
+    <div class="gracie-icon">🤝</div>
+    <h1>Meet Gracie</h1>
+    <p>Your 24/7 virtual recovery companion. Gracie is always here to listen, support, and guide you through your recovery journey — any time of day or night, without judgment.</p>
+    <a href="#notify" class="btn btn-copper">Get Notified at Launch</a>
+  </section>
+
+  <section class="section section-light">
+    <div class="section-header">
+      <span class="section-label">What Gracie Offers</span>
+      <h2 class="section-title">Always Here for You</h2>
+      <p class="section-subtitle">Gracie is designed to support your recovery journey with compassion, guidance, and practical tools.</p>
+    </div>
+
+    <div class="features-list">
+      <div class="feature-item">
+        <div class="feature-icon">🕐</div>
+        <div>
+          <h3>24/7 Availability</h3>
+          <p>Gracie is available whenever you need support — day or night, weekends and holidays.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💙</div>
+        <div>
+          <h3>Compassionate Support</h3>
+          <p>Non-judgmental, empathetic conversations tailored to your recovery journey and needs.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📖</div>
+        <div>
+          <h3>Recovery Resources</h3>
+          <p>Access to curated resources, tools, and information to support every stage of recovery.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">✍️</div>
+        <div>
+          <h3>Journaling & Reflection</h3>
+          <p>Guided journaling prompts and reflection exercises to support your growth and healing.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📱</div>
+        <div>
+          <h3>Mobile App</h3>
+          <p>Download the Gracie app for exclusive features available exclusively on mobile.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔒</div>
+        <div>
+          <h3>Private & Secure</h3>
+          <p>Your conversations are private and secure. Your wellbeing and privacy come first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-copper" id="notify" style="text-align: center;">
+    <h2 class="section-title">Get Notified at Launch</h2>
+    <p class="section-subtitle">Be the first to know when Gracie launches. Enter your email below.</p>
+    <div style="margin-top: 36px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; max-width: 500px; margin: 36px auto 0;">
+      <input type="email" placeholder="Your email address" style="flex: 1; padding: 14px 20px; border-radius: 50px; border: 2px solid var(--copper-2); font-family: var(--font-body); font-size: 1rem; outline: none; min-width: 200px;">
+      <button class="btn btn-primary">Notify Me</button>
+    </div>
+    <p style="margin-top: 16px; font-size: 0.85rem; color: var(--grey-2);">We respect your privacy. No spam, ever.</p>
+  </section>
+
+  <div class="crisis-box" style="margin: 0; border-radius: 0; padding: 40px 80px;">
+    <h3>Need immediate help?</h3>
+    <p>If you are in crisis or need immediate support, please contact:</p>
+    <p><strong>Lifeline:</strong> 13 11 14 &nbsp;|&nbsp; <strong>Beyond Blue:</strong> 1300 22 4636 &nbsp;|&nbsp; <strong>Emergency:</strong> 000</p>
+  </div>
+
+</body>
+</html>
