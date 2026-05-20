@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
       <li><a href="privacy.html">Privacy</a></li>
     </ul>
     <div class="nav-social">
-      <a href="http://www.linkedin.com/rachaelsheers" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://instagram.com/anch_bygrace" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/rachaelsheers" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/anch_oredbygrace" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
     </div>
   </nav>`;
 
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <h3>Anchored by Grace</h3>
         <p>Trauma and addiction recovery via a virtual support hub. Designed to connect, encourage, empower and embrace all that you are.</p>
         <div class="footer-social" style="margin-top: 20px;">
-          <a href="http://www.linkedin.com/rachaelsheers" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://instagram.com/anch_bygrace" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/rachaelsheers" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/anch_oredbygrace" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
       <div class="footer-col">
