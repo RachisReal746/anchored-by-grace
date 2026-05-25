@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="footer-grid">
       <div class="footer-brand">
         <h3>Anchored by Grace</h3>
-        <p>Trauma and addiction recovery via a virtual support hub. Designed to connect, encourage, empower and embrace all that you are.</p>
+        <p>Trauma and addiction recovery via a virtual support hub. Designed to connect, encourage, and embrace all that you are.</p>
         <div class="footer-social" style="margin-top: 20px;">
           <a href="https://www.linkedin.com/in/rachaelsheers" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
           <a href="https://www.instagram.com/anch_oredbygrace" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
