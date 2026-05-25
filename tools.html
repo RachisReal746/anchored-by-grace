@@ -7,6 +7,17 @@
   <meta name="description" content="Access self-help toolkits, worksheets, and guided resources for addiction recovery.">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .card-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    @media (max-width: 900px) {
+      .card-img { height: 140px; }
+    }
+  </style>
 </head>
 <body>
   <script src="shared.js"></script>
@@ -16,44 +27,97 @@
     <p>Self-help toolkits, worksheets, and guided activities to support every step of your recovery journey.</p>
   </section>
 
+  <!-- Recovery Worksheets Section -->
   <section class="section section-light" style="padding-top: 100px;">
     <div class="section-header">
-      <span class="section-label">Self-Help Resources</span>
-      <h2 class="section-title">Your Recovery Toolkit</h2>
-      <p class="section-subtitle">Practical, evidence-informed tools designed to support healing, growth, and lasting change.</p>
+      <span class="section-label">Free Downloads</span>
+      <h2 class="section-title">Recovery Worksheets</h2>
+      <p class="section-subtitle">Practical, printable worksheets designed to support healing, growth, and lasting change. Download, print, and use as often as you need.</p>
     </div>
 
-    <div class="cards-grid-2">
+    <div class="cards-grid">
       <div class="card">
-        <div class="card-icon">📋</div>
+        <img src="images/01_journal.jpg" alt="Daily Recovery Journal" class="card-img">
         <div class="card-body">
-          <h3 class="card-title">Recovery Worksheets</h3>
-          <p class="card-text">Structured worksheets to help you reflect on your progress, identify triggers, and build coping strategies.</p>
-          <a href="#" class="card-link">Download →</a>
+          <h3 class="card-title">Daily Recovery Journal</h3>
+          <p class="card-text">Morning check-in, gratitude prompts, evening reflection, and a daily rating scale. A space for honest reflection — one day at a time.</p>
+          <a href="worksheets/01_Daily_Recovery_Journal.pdf" class="card-link" download>Download PDF →</a>
         </div>
       </div>
       <div class="card">
-        <div class="card-icon">📔</div>
+        <img src="images/02_trigger.jpg" alt="Trigger Identification" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Trigger Identification</h3>
+          <p class="card-text">Map your personal triggers, build a coping toolkit, and create an emergency action plan for when cravings hit hard.</p>
+          <a href="worksheets/02_Trigger_Identification.pdf" class="card-link" download>Download PDF →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/03_goals.jpg" alt="Recovery Goal Setting" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Recovery Goal Setting</h3>
+          <p class="card-text">Set weekly, monthly, and 3-month goals. Identify your support system and track your commitment to lasting change.</p>
+          <a href="worksheets/03_Recovery_Goal_Setting.pdf" class="card-link" download>Download PDF →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/04_mood.jpg" alt="Weekly Mood & Progress Tracker" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Weekly Mood & Progress Tracker</h3>
+          <p class="card-text">Track your mood, sleep, exercise, and cravings across the week. Includes a self-care check-in and space to celebrate weekly wins.</p>
+          <a href="worksheets/04_Weekly_Mood_Progress_Tracker.pdf" class="card-link" download>Download PDF →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/05_relapse.jpg" alt="Relapse Prevention Plan" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Relapse Prevention Plan</h3>
+          <p class="card-text">Identify warning signs, list people and places to avoid, build a step-by-step crisis plan, and keep emergency contacts ready.</p>
+          <a href="worksheets/05_Relapse_Prevention_Plan.pdf" class="card-link" download>Download PDF →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/06_gratitude.jpg" alt="Gratitude & Faith Reflection" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Gratitude & Faith Reflection</h3>
+          <p class="card-text">A guided space for gratitude, scripture or affirmations, letting go of what no longer serves you, and prayer or meditation.</p>
+          <a href="worksheets/06_Gratitude_Faith_Reflection.pdf" class="card-link" download>Download PDF →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More Tools Section -->
+  <section class="section section-white">
+    <div class="section-header">
+      <span class="section-label">Coming Soon</span>
+      <h2 class="section-title">More Resources</h2>
+      <p class="section-subtitle">We're building more tools to support your journey. Check back soon for guided journals, mindfulness exercises, and recovery planning templates.</p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card">
+        <img src="images/07_guided_journals.jpg" alt="Guided Journals" class="card-img">
         <div class="card-body">
           <h3 class="card-title">Guided Journals</h3>
           <p class="card-text">Guided journaling prompts to support reflection, gratitude, and building a positive recovery mindset.</p>
-          <a href="#" class="card-link">Download →</a>
+          <span class="card-link" style="opacity: 0.5;">Coming Soon</span>
         </div>
       </div>
       <div class="card">
-        <div class="card-icon">🧘</div>
+        <img src="images/08_mindfulness.jpg" alt="Mindfulness Exercises" class="card-img">
         <div class="card-body">
           <h3 class="card-title">Mindfulness Exercises</h3>
           <p class="card-text">Simple mindfulness and grounding techniques to help you stay present and manage cravings or difficult emotions.</p>
-          <a href="#" class="card-link">Access →</a>
+          <span class="card-link" style="opacity: 0.5;">Coming Soon</span>
         </div>
       </div>
       <div class="card">
-        <div class="card-icon">🗺️</div>
+        <img src="images/09_recovery_planning.jpg" alt="Recovery Planning" class="card-img">
         <div class="card-body">
           <h3 class="card-title">Recovery Planning</h3>
           <p class="card-text">Step-by-step recovery planning templates to help you set goals, track progress, and celebrate milestones.</p>
-          <a href="#" class="card-link">Download →</a>
+          <span class="card-link" style="opacity: 0.5;">Coming Soon</span>
         </div>
       </div>
     </div>
